@@ -1,2 +1,1 @@
-# STA303-FinalProject
-Students received data as well as web scraping, accessing an API and retrieving licensed data, and then used these to merge, wrangle, visualize, summarize and model data on fitness tracker customers to meet a client brief, and reported on their methods and findings appropriately for a general executive audience and, separately, for a technical audience.
+Assignments that were completed for the STA303 Methods of Data Analysis II course offered during the Winter 2022 semester at the University of Toronto.
