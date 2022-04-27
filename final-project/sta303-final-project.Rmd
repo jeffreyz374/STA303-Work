@@ -32,9 +32,9 @@ knitr::opts_chunk$set(include=TRUE)
 
 ```{r load_data, echo=FALSE, warning=FALSE, message=FALSE}
 # read in the data 
-cust_sleep_complete <- readRDS("data/cust_sleep_complete.Rds")
+cust_sleep_complete <- readRDS("https://raw.githubusercontent.com/jeffreyz374/STA303-Work/main/final-project/data/cust_sleep_complete.Rds")
 
-cust_dev_info <- readRDS("data/cust_dev_info.Rds")
+cust_dev_info <- readRDS("https://raw.githubusercontent.com/jeffreyz374/STA303-Work/main/final-project/data/cust_dev_info.Rds")
 cust_dev_info <- cust_dev_info %>%
   mutate(is_new = ifelse(cust_dev_info$line == "Advance" | cust_dev_info$line == "Active", 1, 0))
 ```
